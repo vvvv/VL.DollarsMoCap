@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UieY5kOVOtyOpTeHuR61b6" LanguageVersion="2025.7.0-0018-gcc09023ca3" Version="0.128">
-  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" Version="2025.7.0-0018-gcc09023ca3" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="UieY5kOVOtyOpTeHuR61b6" LanguageVersion="2025.7.0-0054-ge0749df292" Version="0.128">
+  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" Version="2025.7.0-0054-ge0749df292" />
   <Patch Id="KnTMpqqO0NkQKt1t7D1Xdz">
     <Canvas Id="GuU6CuCTviGMeN2GpWm5xa" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -1390,8 +1390,8 @@
           <Link Id="JmAGO4g3B3uQVhsD3H8EMD" Ids="DiXbZ5tk8lMPpudOLHnXFU,Qrg5Adu4MQ3O8wPtYgiC4f" />
           <Link Id="AlTkliFBVr8QVBPiOjw7sE" Ids="HFiBcifrAi1MLo8z7AT3O7,EAUWtnREDcgNsO9sGLd58u" />
           <Link Id="VHtSjjrwPGIMvtK2YwJecS" Ids="KpGm3Aj2VPYNu27wNqfGAp,I3c1YqElYz0PKK0MfgcH8K" />
-          <Link Id="C2QrfdhJvyFO6qH1grs0tV" Ids="FJTkCoKH43qLekFigvVGEV,SWB4YE2sDoJOfiwMuuC5yc" />
-          <Link Id="S3m2AQma6HdPXcU3fM2TFn" Ids="RRYDaFmgRFNOeDA8hgLdxR,Olix9XI8eZ6Oj2sMmCeJwA" />
+          <Link Id="LnZgZM0DfHrNm12HOgfWIk" Ids="RRYDaFmgRFNOeDA8hgLdxR,SWB4YE2sDoJOfiwMuuC5yc" />
+          <Link Id="FBNGDHK6OihOW4X7RhbJl9" Ids="FJTkCoKH43qLekFigvVGEV,Olix9XI8eZ6Oj2sMmCeJwA" />
         </Patch>
       </Node>
       <!--
@@ -1399,7 +1399,7 @@
     ************************ DollarMONOBones ************************
 
 -->
-      <Node Name="DollarMONOBones" Bounds="213,214" Id="OqkTN7qxxxuPzBHnBmaARg">
+      <Node Name="DollarMONOBones" Bounds="202,216" Id="OqkTN7qxxxuPzBHnBmaARg">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" />
         </p:NodeReference>
@@ -1978,7 +1978,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="TfJUM2L4i32LdYNpzPGjKo" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="4481, 31, 1918, 2080" IsHidden="true" />
+            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1206, 39, 707, 424" IsHidden="true" />
             <Pin Id="O48Q68C6YjgNbc0oYLGDWW" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="FeLXm9CAzYnLJmznql8nCt" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OtSoNGwARSrMy034NqILBB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -2308,10 +2308,10 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" Version="2025.7.0-0018-gcc09023ca3" />
+  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" Version="2025.7.0-0054-ge0749df292" />
   <DocumentDependency Id="PxahRnJyO6iPEzHv6C90qR" Location="../../VL.Skeleton/VL.Skeleton.vl" />
-  <NugetDependency Id="NmZznYqTgOdPcaGCdqUI95" Location="VL.Skia" Version="2025.7.0-0018-gcc09023ca3" />
-  <NugetDependency Id="Oi3ofi04lPZNcCd1cuqwFP" Location="VL.Stride.Runtime" Version="2025.7.0-0018-gcc09023ca3" />
+  <NugetDependency Id="NmZznYqTgOdPcaGCdqUI95" Location="VL.Skia" Version="2025.7.0-0054-ge0749df292" />
+  <NugetDependency Id="Oi3ofi04lPZNcCd1cuqwFP" Location="VL.Stride.Runtime" Version="2025.7.0-0054-ge0749df292" />
   <PlatformDependency Id="CcMFAK8B1e9NEfP2z4Y5Kq" Location="C:/Program Files/vvvv/vvvv_gamma_2021.4.11-1154-g6d671f7ef2/lib/Stride.Rendering.dll" />
   <NugetDependency Id="HV9iQCSlWqGM1murpdIhPH" Location="VL.Skeleton" Version="0.0.0" />
   <NugetDependency Id="Gen1kXjXvzZLEXo7e8WUat" Location="VL.DollarsMoCap" Version="0.0.0" />

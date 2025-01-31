@@ -1978,7 +1978,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="TfJUM2L4i32LdYNpzPGjKo" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="968, 86, 936, 820" IsHidden="true" />
+            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="4481, 31, 1918, 2080" IsHidden="true" />
             <Pin Id="O48Q68C6YjgNbc0oYLGDWW" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="FeLXm9CAzYnLJmznql8nCt" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OtSoNGwARSrMy034NqILBB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -2161,7 +2161,7 @@
             <Pin Id="QOewvZqDOQGNh0hIEsPRsF" Name="Joint Quaternions" Kind="OutputPin" />
             <Pin Id="HrJOxyHW18rNBQ3yhWItvO" Name="Is Open" Kind="OutputPin" />
           </Node>
-          <Pad Id="Dvyp7vcbTXnLde8bWGyOq2" Comment="Show Name" Bounds="1082,794,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="Dvyp7vcbTXnLde8bWGyOq2" Comment="Show Name" Bounds="1082,794,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>

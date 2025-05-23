@@ -1617,11 +1617,6 @@
             <Pin Id="VjNuaPek0ttNJ0bxyWm64H" Name="Input" Kind="InputPin" />
             <Pin Id="OWYD6Bg5HMkQRWNGCgsYOI" Name="Name" Kind="OutputPin" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="TZS9KJAtvpqOz3NucDbHaA">
             <Fragment Id="ECFvuR21kltPtbvZV9bUmE" Patch="CPUCUko9GheNI0r6UJCZ5Q" Enabled="true" />
             <Fragment Id="K5uanqHtO74Nq2JlwC0O9W" Patch="B2aN3hqPnN3LOlLeuHNyK9" Enabled="true" />
@@ -1874,7 +1869,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="155,200,85,19" Id="VXtIfoHRj2AM6dTI7lDaiJ">
+          <Node Bounds="155,200,105,19" Id="VXtIfoHRj2AM6dTI7lDaiJ">
             <p:NodeReference LastCategoryFullName="Devices.Dollars" LastDependency="VL.DollarsMoCap.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="DollarsMoCap" />
@@ -1884,7 +1879,7 @@
             <Pin Id="FYwEmNfoLjTPnI1TNuuhZ3" Name="Listening IP" Kind="InputPin" />
             <Pin Id="RdTRbHWWTcoPUCocuwAhc2" Name="Port" Kind="InputPin" />
             <Pin Id="GSBGMFxkrqkPqoCLeK0Qsx" Name="Enabled" Kind="InputPin" />
-            <Pin Id="LrIgHnKT0XALJxQGjlOB8M" Name="Skeleton" Kind="OutputPin" />
+            <Pin Id="B1pBI0rAuUENzxhYnD9rXq" Name="Skeleton" Kind="OutputPin" />
             <Pin Id="KtBl4x1JOTTNm4Wioi17O9" Name="Joint Names" Kind="OutputPin" />
             <Pin Id="LHoyIciwMcyLFe2dPLvqMF" Name="Joint Positions" Kind="OutputPin" />
             <Pin Id="QOewvZqDOQGNh0hIEsPRsF" Name="Joint Quaternions" Kind="OutputPin" />
@@ -1967,104 +1962,13 @@
               <Item>LeftHand</Item>
             </p:Value>
           </Pad>
-          <Pad Id="A0lQeZkh01FQdX5EllZiIf" Comment="Joint Names" Bounds="177,250,87,341" ShowValueBox="true" isIOBox="true">
+          <Pad Id="A0lQeZkh01FQdX5EllZiIf" Comment="Joint Names" Bounds="182,260,87,341" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maxvisibleentries p:Type="Int32">65</p:maxvisibleentries>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="EJuzCSBDbVOLdu30SfJhOx" Comment="" Bounds="1238,680,35,95" ShowValueBox="true" isIOBox="true">
-            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
-              <Choice Kind="TypeFlag" Name="Spread" />
-              <p:TypeArguments>
-                <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="String" />
-                </TypeReference>
-              </p:TypeArguments>
-            </p:TypeAnnotation>
-            <p:Value>
-              <Item>RootNode</Item>
-              <Item>Hips</Item>
-              <Item>Spine</Item>
-              <Item>Spine1</Item>
-              <Item>Spine2</Item>
-              <Item>Neck</Item>
-              <Item>Head</Item>
-              <Item>HeadTop_End</Item>
-              <Item>LeftEye</Item>
-              <Item>RightEye</Item>
-              <Item>LeftShoulder</Item>
-              <Item>LeftArm</Item>
-              <Item>LeftForeArm</Item>
-              <Item>LeftHand</Item>
-              <Item>LeftHandMiddle1</Item>
-              <Item>LeftHandMiddle2</Item>
-              <Item>LeftHandMiddle3</Item>
-              <Item>LeftHandMiddle4</Item>
-              <Item>LeftHandThumb1</Item>
-              <Item>LeftHandThumb2</Item>
-              <Item>LeftHandThumb3</Item>
-              <Item>LeftHandThumb4</Item>
-              <Item>LeftHandIndex1</Item>
-              <Item>LeftHandIndex2</Item>
-              <Item>LeftHandIndex3</Item>
-              <Item>LeftHandIndex4</Item>
-              <Item>LeftHandRing1</Item>
-              <Item>LeftHandRing2</Item>
-              <Item>LeftHandRing3</Item>
-              <Item>LeftHandRing4</Item>
-              <Item>LeftHandPinky1</Item>
-              <Item>LeftHandPinky2</Item>
-              <Item>LeftHandPinky3</Item>
-              <Item>LeftHandPinky4</Item>
-              <Item>RightShoulder</Item>
-              <Item>RightArm</Item>
-              <Item>RightForeArm</Item>
-              <Item>RightHand</Item>
-              <Item>RightHandMiddle1</Item>
-              <Item>RightHandMiddle2</Item>
-              <Item>RightHandMiddle3</Item>
-              <Item>RightHandMiddle4</Item>
-              <Item>RightHandThumb1</Item>
-              <Item>RightHandThumb2</Item>
-              <Item>RightHandThumb3</Item>
-              <Item>RightHandThumb4</Item>
-              <Item>RightHandIndex1</Item>
-              <Item>RightHandIndex2</Item>
-              <Item>RightHandIndex3</Item>
-              <Item>RightHandIndex4</Item>
-              <Item>RightHandRing1</Item>
-              <Item>RightHandRing2</Item>
-              <Item>RightHandRing3</Item>
-              <Item>RightHandRing4</Item>
-              <Item>RightHandPinky1</Item>
-              <Item>RightHandPinky2</Item>
-              <Item>RightHandPinky3</Item>
-              <Item>RightHandPinky4</Item>
-              <Item>RightUpLeg</Item>
-              <Item>RightLeg</Item>
-              <Item>RightFoot</Item>
-              <Item>RightToeBase</Item>
-              <Item>RightToe_End</Item>
-              <Item>LeftUpLeg</Item>
-              <Item>LeftLeg</Item>
-              <Item>LeftFoot</Item>
-              <Item>LeftToeBase</Item>
-              <Item>LeftToe_End</Item>
-              <Item>Alpha_Surface</Item>
-              <Item>Alpha_Joints</Item>
-            </p:Value>
-          </Pad>
-          <Node Bounds="667,370,69,19" Id="J1srQG3JfYNLZE95Ly4LN5">
-            <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Avateer a rigged mesh.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessNode" Name="BoneNames" />
-            </p:NodeReference>
-            <Pin Id="Jq0NjSBwzH3LphBvBayCv3" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="MEvkohRwCwxN5n81pzKolr" Name="Input" Kind="InputPin" />
-            <Pin Id="Nz7EVDWLBJpNpB0hlnlKt3" Name="Name" Kind="OutputPin" />
-          </Node>
           <Pad Id="MhTMQjE7ynCOLpdrcALY1R" Comment="Name" Bounds="669,420,113,95" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="S3ZGIA8AC7zMqLwhVRt1nF" Bounds="468,275,136,97" ShowValueBox="true" isIOBox="true" Value="&lt; Among the bones in the Model find the ones corresponding to those returned by DollarsMocap">
+          <Pad Id="S3ZGIA8AC7zMqLwhVRt1nF" Bounds="468,275,138,114" ShowValueBox="true" isIOBox="true" Value="&lt; Among the joints in the Model find the ones corresponding to those returned by DollarsMocap">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2073,6 +1977,15 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
+          <Node Bounds="667,370,68,19" Id="IafDcPCpB9JM7MWY96G5Vz">
+            <p:NodeReference LastCategoryFullName="Skeleton" LastDependency="VL.Skeleton.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="JointNames" />
+            </p:NodeReference>
+            <Pin Id="FxwgPUx39fyOP4RRZ6isTK" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CTgky3xanHfMv7VhRVjz89" Name="Input" Kind="InputPin" />
+            <Pin Id="P2okz7vUJKPM4hPoDyp6BZ" Name="Name" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="AATcTcpprZHOW1yk32lDRs" Name="Create" />
         <Patch Id="EGGMvGuJOGGQNa4A6X5TZj" Name="Update" />
@@ -2103,11 +2016,11 @@
         <Link Id="KHgx5JopONNObBVmiHtgK9" Ids="SiWZIpQkDxZOosB1fO9yxS,PKuZFIt9tktLsGP3TN6j0Q" />
         <Link Id="EdiL9mE71UsL8rIxZhQ6AU" Ids="VhGQ41iNk0NPkB9oNNY2MA,MNhBF5ohaHTQFTvvSoEG4g" />
         <Link Id="VJWhFz7EzWwPA78pLBe7zW" Ids="QO7hGnRgW0vLKTXk1vwNv9,OgfvrL3HYssLOewhSSA5jY" />
-        <Link Id="Qivv842FYdsPZAba3irT7J" Ids="LrIgHnKT0XALJxQGjlOB8M,OXdhxaJ9af4NGNXLZRybj4" />
         <Link Id="HKkwWoUN6QkO7AYQZrr316" Ids="VyclhjKoNqiOU0vvQ38ht5,CSn91zjq6RJP4JFqLVIvjx" />
         <Link Id="EfZYcDi57J4QH9hIzqk0U7" Ids="KtBl4x1JOTTNm4Wioi17O9,A0lQeZkh01FQdX5EllZiIf" />
-        <Link Id="Cd8Wy5ZlWddMgysYGgigBL" Ids="QMebMvb2ghkM2TYFAMvCOr,MEvkohRwCwxN5n81pzKolr" />
-        <Link Id="Jb6IGagl2NxOJnvtK8NfKm" Ids="Nz7EVDWLBJpNpB0hlnlKt3,MhTMQjE7ynCOLpdrcALY1R" />
+        <Link Id="VcQHsBCYL7SQLVjlhP2E5g" Ids="B1pBI0rAuUENzxhYnD9rXq,OXdhxaJ9af4NGNXLZRybj4" />
+        <Link Id="GnnuKpREYTFMSjMvp3M2Wl" Ids="QMebMvb2ghkM2TYFAMvCOr,CTgky3xanHfMv7VhRVjz89" />
+        <Link Id="QRA61DiYXPCOijXKyXoFQ0" Ids="P2okz7vUJKPM4hPoDyp6BZ,MhTMQjE7ynCOLpdrcALY1R" />
       </Patch>
     </Node>
   </Patch>

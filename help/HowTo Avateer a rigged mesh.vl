@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UieY5kOVOtyOpTeHuR61b6" LanguageVersion="2025.7.0-0359-gbbb0444d86" Version="0.128">
-  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" Version="2025.7.0-0359-gbbb0444d86" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="UieY5kOVOtyOpTeHuR61b6" LanguageVersion="2025.7.0-0361-gd2ce43ef49" Version="0.128">
+  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" Version="2025.7.0-0361-gd2ce43ef49" />
   <Patch Id="KnTMpqqO0NkQKt1t7D1Xdz">
     <Canvas Id="GuU6CuCTviGMeN2GpWm5xa" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -1696,7 +1696,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="TfJUM2L4i32LdYNpzPGjKo" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="2011, 114, 846, 864" IsHidden="true" />
+            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1921, 31, 1918, 2098" IsHidden="true" />
             <Pin Id="O48Q68C6YjgNbc0oYLGDWW" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="FeLXm9CAzYnLJmznql8nCt" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OtSoNGwARSrMy034NqILBB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -1905,7 +1905,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VhGQ41iNk0NPkB9oNNY2MA" Comment="Path" Bounds="862,231,370,15" ShowValueBox="true" isIOBox="true" Value="..\..\VL.Skeleton\WIP\ZEDSkeletonAnimation\Models\YBot_fbx.fbx">
+          <Pad Id="VhGQ41iNk0NPkB9oNNY2MA" Comment="Path" Bounds="862,231,370,15" ShowValueBox="true" isIOBox="true" Value="..\..\VL.Skeleton\WIP\ZEDSkeletonAnimation\Models\Ch19_nonPBR.fbx">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -1922,7 +1922,7 @@
             <Pin Id="S0Eczs3knVJLKhlRlf3A7o" Name="Update" Kind="InputPin" />
             <Pin Id="HUYWX1mfTOOLIAZyj2Arj0" Name="Names" Kind="OutputPin" />
           </Node>
-          <Pad Id="QO7hGnRgW0vLKTXk1vwNv9" Comment="Model Names" Bounds="363,250,90,342" ShowValueBox="true" isIOBox="true">
+          <Pad Id="QO7hGnRgW0vLKTXk1vwNv9" Comment="Ch19" Bounds="377,860,106,341" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -1963,8 +1963,7 @@
               <p:maxvisibleentries p:Type="Int32">65</p:maxvisibleentries>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MhTMQjE7ynCOLpdrcALY1R" Comment="Names" Bounds="669,420,113,95" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="S3ZGIA8AC7zMqLwhVRt1nF" Bounds="468,275,138,114" ShowValueBox="true" isIOBox="true" Value="&lt; Among the joints in the Model find the ones corresponding to those returned by DollarsMocap">
+          <Pad Id="S3ZGIA8AC7zMqLwhVRt1nF" Bounds="483,296,138,114" ShowValueBox="true" isIOBox="true" Value="&lt; Among the joints in the Model find the ones corresponding to those returned by DollarsMocap">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1973,16 +1972,172 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="667,370,68,19" Id="IafDcPCpB9JM7MWY96G5Vz">
-            <p:NodeReference LastCategoryFullName="Skeleton" LastDependency="VL.Skeleton.vl">
+          <Pad Id="JoLWn88u8DKP9w91iEuQvS" Comment="Remy" Bounds="368,260,90,342" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="String" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">70</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+            <p:Value>
+              <Item>Hips</Item>
+              <Item>RightUpLeg</Item>
+              <Item>Spine</Item>
+              <Item>LeftUpLeg</Item>
+              <Item>RightLeg</Item>
+              <Item>Spine2</Item>
+              <Item>LeftLeg</Item>
+              <Item>RightFoot</Item>
+              <Item>RightShoulder</Item>
+              <Item>Neck</Item>
+              <Item>LeftShoulder</Item>
+              <Item>LeftFoot</Item>
+              <Item>RightToeBase</Item>
+              <Item>RightArm</Item>
+              <Item>Head</Item>
+              <Item>LeftArm</Item>
+              <Item>LeftToeBase</Item>
+              <Item>RightForeArm</Item>
+              <Item>LeftForeArm</Item>
+              <Item>RightHand</Item>
+              <Item>LeftHand</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="GeAEK1pEnaOPWYrIwRlKgw" Bounds="450,34,290,114" ShowValueBox="true" isIOBox="true" Value="- make skeleton a record (so we can queue it)&#xD;&#xA;- add fingers&#xD;&#xA;- automapping of joints&#xD;&#xA;- load materials&#xD;&#xA;- zed&#xD;&#xA;- azure&#xD;&#xA;- leap">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="IxV3hb2KtVJN6FKQiy0dNu" Comment="WhiteMesh" Bounds="172,866,106,341" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="String" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">70</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+            <p:Value>
+              <Item>Character1_Hips</Item>
+              <Item>Character1_RightUpLeg</Item>
+              <Item>Character1_Spine</Item>
+              <Item>Character1_LeftUpLeg</Item>
+              <Item>Character1_RightLeg</Item>
+              <Item>Character1_Spine2</Item>
+              <Item>Character1_LeftLeg</Item>
+              <Item>Character1_RightFoot</Item>
+              <Item>Character1_RightShoulder</Item>
+              <Item>Neck</Item>
+              <Item>Character1_LeftShoulder</Item>
+              <Item>Character1_LeftFoot</Item>
+              <Item>Character1_RightToeBase</Item>
+              <Item>Character1_RightArm</Item>
+              <Item>Character1_Head</Item>
+              <Item>Character1_LeftArm</Item>
+              <Item>Character1_LeftToeBase</Item>
+              <Item>Character1_RightForeArm</Item>
+              <Item>Character1_LeftForeArm</Item>
+              <Item>Character1_RightHand</Item>
+              <Item>Character1_LeftHand</Item>
+            </p:Value>
+          </Pad>
+          <Node Bounds="1246,131,165,19" Id="QQJ609VoTvvLAujQvDj9CF">
+            <p:NodeReference LastCategoryFullName="Stride.Assets" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="JointNames" />
+              <Choice Kind="ProcessAppFlag" Name="LoadProject" />
             </p:NodeReference>
-            <Pin Id="FxwgPUx39fyOP4RRZ6isTK" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="CTgky3xanHfMv7VhRVjz89" Name="Input" Kind="InputPin" />
-            <Pin Id="CtizgPSPb8SPLYwB5Iqxgy" Name="Transforms" Kind="OutputPin" />
-            <Pin Id="FKIBCvAdpODNwulSR6Daf9" Name="Names" Kind="OutputPin" />
+            <Pin Id="R3yKUxHjBARQQ1tGZOcsUJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OpPl66xg7z1LUNTlE8vqz3" Name="Project Path" Kind="InputPin" />
+            <Pin Id="GkZK5uoeYgQLH6UxKtpiy2" Name="Reload" Kind="InputPin" />
+            <Pin Id="PTgcpOnSmy1OHfnqeafTBm" Name="Auto Reload" Kind="InputPin" />
+            <Pin Id="APd50ni8jQCP3yN29Eg4GS" Name="Loading" Kind="OutputPin" />
+            <Pin Id="VyyQ69kZyRNNyv3pirZDKz" Name="Project Is Loading" Kind="OutputPin" />
+            <Pin Id="UHKZh8scuvJNFox1KX1sXF" Name="Contents" Kind="OutputPin" />
+            <Pin Id="UqFJ8cl5SWoNhaVJvNm42v" Name="On Data" Kind="OutputPin" />
+            <Pin Id="JSuzEVPipYML5mg9KYd5jG" Name="Content URLs" Kind="OutputPin" />
+            <Pin Id="TB6V3QAWE8gNcc5YTKNErH" Name="Content Is Loading" Kind="OutputPin" />
+            <Pin Id="UPdMsac19GFNuCZmYdBOru" Name="Any Content Is Loading" Kind="OutputPin" />
+            <Pin Id="UPmMAHTa9HdM0KrqMdvy7u" Name="Available Assets" Kind="OutputPin" />
+            <Pin Id="KOnGKUneIbfM1mljM5OLZL" Name="Changes" Kind="OutputPin" />
           </Node>
+          <Pad Id="K7IItm753QcQXhT4YaFzHb" Comment="Project Path" Bounds="1238,90,140,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\Users\HOPE_01\Documents\Stride Projects\MyGame8\MyGame8\MyGame8.csproj">
+            <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Path" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="B76NawSgzBfL9JH97eq5sa" Comment="Loading" Bounds="1189,180,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="QUvF0YlVQYIMTaCkwaYglR" Comment="Content URLs" Bounds="1318,180,190,144" ShowValueBox="true" isIOBox="true">
+            <p:Value>
+              <Item>Bodymat</Item>
+              <Item>Bottommat</Item>
+              <Item>Eyelashmat</Item>
+              <Item>GameSettings</Item>
+              <Item>GraphicsCompositor</Item>
+              <Item>Ground</Item>
+              <Item>Ground Material</Item>
+              <Item>Hairmat</Item>
+              <Item>MainScene</Item>
+              <Item>Remy_Body_Diffuse</Item>
+              <Item>Remy_Body_Gloss</Item>
+              <Item>Remy_Body_Normal</Item>
+              <Item>Remy_Body_Opacity</Item>
+              <Item>Remy_Body_Specular</Item>
+              <Item>Remy_Bottom_Diffuse</Item>
+              <Item>Remy_Bottom_Gloss</Item>
+              <Item>Remy_Bottom_Normal</Item>
+              <Item>Remy_Bottom_Specular</Item>
+              <Item>Remy_fbx</Item>
+              <Item>Remy_fbx Skeleton</Item>
+              <Item>Remy_fbx_mixamo.com</Item>
+              <Item>Remy_Hair_Diffuse</Item>
+              <Item>Remy_Hair_Gloss</Item>
+              <Item>Remy_Hair_Normal</Item>
+              <Item>Remy_Hair_Opacity</Item>
+              <Item>Remy_Hair_Specular</Item>
+              <Item>Remy_Shoes_Diffuse</Item>
+              <Item>Remy_Shoes_Gloss</Item>
+              <Item>Remy_Shoes_Normal</Item>
+              <Item>Remy_Shoes_Specular</Item>
+              <Item>Remy_Top_Diffuse</Item>
+              <Item>Remy_Top_Gloss</Item>
+              <Item>Remy_Top_Normal</Item>
+              <Item>Remy_Top_Specular</Item>
+              <Item>Shoesmat</Item>
+              <Item>Skybox</Item>
+              <Item>Skybox texture</Item>
+              <Item>Sphere</Item>
+              <Item>Sphere Material</Item>
+              <Item>Topmat</Item>
+            </p:Value>
+          </Pad>
+          <Node Bounds="1670,251,69,19" Id="O7e8YJtyUDeLoULJxsm0mJ">
+            <p:NodeReference LastCategoryFullName="Stride.Assets" LastDependency="VL.Stride.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="AssetModel" />
+            </p:NodeReference>
+            <Pin Id="SuEROzXF2rjNTZrBnlZSGO" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PZymr4KzkxXN24zGKXjnS6" Name="Model Url" Kind="InputPin" />
+            <Pin Id="Vt67bE9PRtFMT2KVHV6oTr" Name="Reload" Kind="InputPin" />
+            <Pin Id="HJdsq6hzahwPT6VDqGWFxb" Name="Output" Kind="OutputPin" />
+            <Pin Id="O4422uzqP3WMR7WgLsubY9" Name="Exists" Kind="OutputPin" />
+          </Node>
+          <Pad Id="MX1pCGXKGDROrPIDFv5PeL" Comment="Model Url" Bounds="1672,200,154,15" ShowValueBox="true" isIOBox="true" Value="Remy_fbx">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+          </Pad>
         </Canvas>
         <Patch Id="AATcTcpprZHOW1yk32lDRs" Name="Create" />
         <Patch Id="EGGMvGuJOGGQNa4A6X5TZj" Name="Update" />
@@ -2009,22 +2164,24 @@
         <Link Id="GM9Tu8u845SPfaRO5hWLPT" Ids="Dvyp7vcbTXnLde8bWGyOq2,ITVdPKYQksXPLFPY9UvBrZ" />
         <Link Id="IUnJIqNE4ONOO8L2z19jm8" Ids="E3SLkSz9MKgPecloBisREy,RdTRbHWWTcoPUCocuwAhc2" />
         <Link Id="GRjOsorE9gAO0cyGvkA7ev" Ids="UWWN5Nn5YElP7mtT1zk2Gd,O2c0Jt1yruUNw48jW5Sx9K" />
-        <Link Id="Qoq8GdDTn6kM3KYMmlvkkI" Ids="QMebMvb2ghkM2TYFAMvCOr,CvmJqAPZOktMNu4GT7BKUz" />
         <Link Id="KHgx5JopONNObBVmiHtgK9" Ids="SiWZIpQkDxZOosB1fO9yxS,PKuZFIt9tktLsGP3TN6j0Q" />
         <Link Id="EdiL9mE71UsL8rIxZhQ6AU" Ids="VhGQ41iNk0NPkB9oNNY2MA,MNhBF5ohaHTQFTvvSoEG4g" />
-        <Link Id="VJWhFz7EzWwPA78pLBe7zW" Ids="QO7hGnRgW0vLKTXk1vwNv9,OgfvrL3HYssLOewhSSA5jY" />
         <Link Id="HKkwWoUN6QkO7AYQZrr316" Ids="VyclhjKoNqiOU0vvQ38ht5,CSn91zjq6RJP4JFqLVIvjx" />
         <Link Id="EfZYcDi57J4QH9hIzqk0U7" Ids="KtBl4x1JOTTNm4Wioi17O9,A0lQeZkh01FQdX5EllZiIf" />
         <Link Id="VcQHsBCYL7SQLVjlhP2E5g" Ids="B1pBI0rAuUENzxhYnD9rXq,OXdhxaJ9af4NGNXLZRybj4" />
-        <Link Id="GnnuKpREYTFMSjMvp3M2Wl" Ids="QMebMvb2ghkM2TYFAMvCOr,CTgky3xanHfMv7VhRVjz89" />
-        <Link Id="STQJcf1muDQMCZupYstp2r" Ids="FKIBCvAdpODNwulSR6Daf9,MhTMQjE7ynCOLpdrcALY1R" />
+        <Link Id="CVWUmSAO14QLDXFcfnhAjv" Ids="QO7hGnRgW0vLKTXk1vwNv9,OgfvrL3HYssLOewhSSA5jY" />
+        <Link Id="AFUixFKr63pOyAGPRRREjx" Ids="K7IItm753QcQXhT4YaFzHb,OpPl66xg7z1LUNTlE8vqz3" />
+        <Link Id="J2D9u2IdlgVPYlFUw78AIl" Ids="APd50ni8jQCP3yN29Eg4GS,B76NawSgzBfL9JH97eq5sa" />
+        <Link Id="HMDUWP6902TPLKQMXr0w56" Ids="JSuzEVPipYML5mg9KYd5jG,QUvF0YlVQYIMTaCkwaYglR" />
+        <Link Id="EQiaOJeiAlkNtqFjwK4bvh" Ids="MX1pCGXKGDROrPIDFv5PeL,PZymr4KzkxXN24zGKXjnS6" />
+        <Link Id="Vef4jzqHhc6O1WBiHQ9B6w" Ids="HJdsq6hzahwPT6VDqGWFxb,CvmJqAPZOktMNu4GT7BKUz" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" Version="2025.7.0-0359-gbbb0444d86" />
+  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" Version="2025.7.0-0361-gd2ce43ef49" />
   <DocumentDependency Id="PxahRnJyO6iPEzHv6C90qR" Location="../../VL.Skeleton/VL.Skeleton.vl" />
-  <NugetDependency Id="NmZznYqTgOdPcaGCdqUI95" Location="VL.Skia" Version="2025.7.0-0359-gbbb0444d86" />
-  <NugetDependency Id="Oi3ofi04lPZNcCd1cuqwFP" Location="VL.Stride.Runtime" Version="2025.7.0-0359-gbbb0444d86" />
+  <NugetDependency Id="NmZznYqTgOdPcaGCdqUI95" Location="VL.Skia" Version="2025.7.0-0361-gd2ce43ef49" />
+  <NugetDependency Id="Oi3ofi04lPZNcCd1cuqwFP" Location="VL.Stride.Runtime" Version="2025.7.0-0361-gd2ce43ef49" />
   <PlatformDependency Id="CcMFAK8B1e9NEfP2z4Y5Kq" Location="C:/Program Files/vvvv/vvvv_gamma_2021.4.11-1154-g6d671f7ef2/lib/Stride.Rendering.dll" />
   <NugetDependency Id="HV9iQCSlWqGM1murpdIhPH" Location="VL.Skeleton" Version="0.0.0" />
   <NugetDependency Id="Gen1kXjXvzZLEXo7e8WUat" Location="VL.DollarsMoCap" Version="0.0.0" />

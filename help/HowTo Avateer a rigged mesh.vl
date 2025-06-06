@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UieY5kOVOtyOpTeHuR61b6" LanguageVersion="2025.7.0-0335-g7f2489e528" Version="0.128">
-  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" Version="2025.7.0-0335-g7f2489e528" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="UieY5kOVOtyOpTeHuR61b6" LanguageVersion="2025.7.0-0359-gbbb0444d86" Version="0.128">
+  <NugetDependency Id="ABooPaCvtWbOnf9FZnVp8e" Location="VL.CoreLib" Version="2025.7.0-0359-gbbb0444d86" />
   <Patch Id="KnTMpqqO0NkQKt1t7D1Xdz">
     <Canvas Id="GuU6CuCTviGMeN2GpWm5xa" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -23,12 +23,11 @@
               <Pin Id="TNjiqZ2yuJyLQHqNkLabgH" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="CtkVh1tzgKBN9Ng8Dc8rF3" Name="Skeleton Root" Kind="InputPin" />
               <Pin Id="G0aQypWS4NSOualOpY6zia" Name="Rigged Model Entity" Kind="InputPin" />
-              <Pin Id="T68QakuvjJePFiP7ypq2sD" Name="Rotation Offset" Kind="InputPin" />
               <Pin Id="RHKBWt3gRJMM7zRXvryjw9" Name="Mapping Names" Kind="InputPin" />
-              <Pin Id="SU68sRUbqJnONjRZC7Brr8" Name="Ajust Rotation" Kind="InputPin" DefaultValue="False" />
               <Pin Id="QRnpOSgXyB1PuaSu5XTzdC" Name="Update" Kind="InputPin" DefaultValue="False" />
               <Pin Id="RWL2iso1LJaMT5sH9m6DCo" Name="Names" Kind="OutputPin" />
-              <Pin Id="FaaF95UnuQKPtQVViO9VHh" Name="Offset Helper" Kind="OutputPin" />
+              <Pin Id="T68QakuvjJePFiP7ypq2sD" Name="Rotation Offset" Kind="InputPin" />
+              <Pin Id="SU68sRUbqJnONjRZC7Brr8" Name="Ajust Rotation" Kind="InputPin" DefaultValue="False" />
             </Node>
             <Pad Id="G5YMWnJZNfpQQMYgum27AG" Comment="" Bounds="1482,1040,55,15" ShowValueBox="true" isIOBox="true" Value="Hips">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -1919,12 +1918,9 @@
             <Pin Id="Qd7g8gJTeYHMHJ2OphPWQp" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="OXdhxaJ9af4NGNXLZRybj4" Name="Skeleton Root" Kind="InputPin" />
             <Pin Id="CSn91zjq6RJP4JFqLVIvjx" Name="Rigged Model Entity" Kind="InputPin" />
-            <Pin Id="RrMrFwRRJL2NArrkGsycC5" Name="Rotation Offset" Kind="InputPin" />
             <Pin Id="OgfvrL3HYssLOewhSSA5jY" Name="Mapping Names" Kind="InputPin" />
-            <Pin Id="VorVoGNewtCPhXkQyMY8tx" Name="Ajust Rotation" Kind="InputPin" DefaultValue="False" />
             <Pin Id="S0Eczs3knVJLKhlRlf3A7o" Name="Update" Kind="InputPin" />
             <Pin Id="HUYWX1mfTOOLIAZyj2Arj0" Name="Names" Kind="OutputPin" />
-            <Pin Id="VSBM3T4Z4eLNtGOrGLwdqA" Name="Offset Helper" Kind="OutputPin" />
           </Node>
           <Pad Id="QO7hGnRgW0vLKTXk1vwNv9" Comment="Model Names" Bounds="363,250,90,342" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
@@ -1967,7 +1963,7 @@
               <p:maxvisibleentries p:Type="Int32">65</p:maxvisibleentries>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="MhTMQjE7ynCOLpdrcALY1R" Comment="Name" Bounds="669,420,113,95" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="MhTMQjE7ynCOLpdrcALY1R" Comment="Names" Bounds="669,420,113,95" ShowValueBox="true" isIOBox="true" />
           <Pad Id="S3ZGIA8AC7zMqLwhVRt1nF" Bounds="468,275,138,114" ShowValueBox="true" isIOBox="true" Value="&lt; Among the joints in the Model find the ones corresponding to those returned by DollarsMocap">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
@@ -1984,7 +1980,8 @@
             </p:NodeReference>
             <Pin Id="FxwgPUx39fyOP4RRZ6isTK" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="CTgky3xanHfMv7VhRVjz89" Name="Input" Kind="InputPin" />
-            <Pin Id="P2okz7vUJKPM4hPoDyp6BZ" Name="Name" Kind="OutputPin" />
+            <Pin Id="CtizgPSPb8SPLYwB5Iqxgy" Name="Transforms" Kind="OutputPin" />
+            <Pin Id="FKIBCvAdpODNwulSR6Daf9" Name="Names" Kind="OutputPin" />
           </Node>
         </Canvas>
         <Patch Id="AATcTcpprZHOW1yk32lDRs" Name="Create" />
@@ -2020,14 +2017,14 @@
         <Link Id="EfZYcDi57J4QH9hIzqk0U7" Ids="KtBl4x1JOTTNm4Wioi17O9,A0lQeZkh01FQdX5EllZiIf" />
         <Link Id="VcQHsBCYL7SQLVjlhP2E5g" Ids="B1pBI0rAuUENzxhYnD9rXq,OXdhxaJ9af4NGNXLZRybj4" />
         <Link Id="GnnuKpREYTFMSjMvp3M2Wl" Ids="QMebMvb2ghkM2TYFAMvCOr,CTgky3xanHfMv7VhRVjz89" />
-        <Link Id="QRA61DiYXPCOijXKyXoFQ0" Ids="P2okz7vUJKPM4hPoDyp6BZ,MhTMQjE7ynCOLpdrcALY1R" />
+        <Link Id="STQJcf1muDQMCZupYstp2r" Ids="FKIBCvAdpODNwulSR6Daf9,MhTMQjE7ynCOLpdrcALY1R" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" Version="2025.7.0-0335-g7f2489e528" />
+  <NugetDependency Id="IebNBearTwVNzsKVksBBJ9" Location="VL.Stride" Version="2025.7.0-0359-gbbb0444d86" />
   <DocumentDependency Id="PxahRnJyO6iPEzHv6C90qR" Location="../../VL.Skeleton/VL.Skeleton.vl" />
-  <NugetDependency Id="NmZznYqTgOdPcaGCdqUI95" Location="VL.Skia" Version="2025.7.0-0335-g7f2489e528" />
-  <NugetDependency Id="Oi3ofi04lPZNcCd1cuqwFP" Location="VL.Stride.Runtime" Version="2025.7.0-0335-g7f2489e528" />
+  <NugetDependency Id="NmZznYqTgOdPcaGCdqUI95" Location="VL.Skia" Version="2025.7.0-0359-gbbb0444d86" />
+  <NugetDependency Id="Oi3ofi04lPZNcCd1cuqwFP" Location="VL.Stride.Runtime" Version="2025.7.0-0359-gbbb0444d86" />
   <PlatformDependency Id="CcMFAK8B1e9NEfP2z4Y5Kq" Location="C:/Program Files/vvvv/vvvv_gamma_2021.4.11-1154-g6d671f7ef2/lib/Stride.Rendering.dll" />
   <NugetDependency Id="HV9iQCSlWqGM1murpdIhPH" Location="VL.Skeleton" Version="0.0.0" />
   <NugetDependency Id="Gen1kXjXvzZLEXo7e8WUat" Location="VL.DollarsMoCap" Version="0.0.0" />

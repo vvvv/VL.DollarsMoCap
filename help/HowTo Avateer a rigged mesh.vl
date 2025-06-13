@@ -23,9 +23,9 @@
               <Pin Id="TNjiqZ2yuJyLQHqNkLabgH" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="CtkVh1tzgKBN9Ng8Dc8rF3" Name="Skeleton Root" Kind="InputPin" />
               <Pin Id="G0aQypWS4NSOualOpY6zia" Name="Rigged Model Entity" Kind="InputPin" />
-              <Pin Id="RHKBWt3gRJMM7zRXvryjw9" Name="Mapping Names" Kind="InputPin" />
+              <Pin Id="RHKBWt3gRJMM7zRXvryjw9" Name="Model Joints" Kind="InputPin" />
               <Pin Id="QRnpOSgXyB1PuaSu5XTzdC" Name="Update" Kind="InputPin" DefaultValue="False" />
-              <Pin Id="RWL2iso1LJaMT5sH9m6DCo" Name="Names" Kind="OutputPin" />
+              <Pin Id="RWL2iso1LJaMT5sH9m6DCo" Name="Model Joints" Kind="OutputPin" />
               <Pin Id="T68QakuvjJePFiP7ypq2sD" Name="Rotation Offset" Kind="InputPin" />
               <Pin Id="SU68sRUbqJnONjRZC7Brr8" Name="Ajust Rotation" Kind="InputPin" DefaultValue="False" />
             </Node>
@@ -1918,9 +1918,9 @@
             <Pin Id="Qd7g8gJTeYHMHJ2OphPWQp" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="OXdhxaJ9af4NGNXLZRybj4" Name="Skeleton Root" Kind="InputPin" />
             <Pin Id="CSn91zjq6RJP4JFqLVIvjx" Name="Rigged Model Entity" Kind="InputPin" />
-            <Pin Id="OgfvrL3HYssLOewhSSA5jY" Name="Mapping Names" Kind="InputPin" />
+            <Pin Id="OgfvrL3HYssLOewhSSA5jY" Name="Model Joints" Kind="InputPin" />
             <Pin Id="S0Eczs3knVJLKhlRlf3A7o" Name="Update" Kind="InputPin" />
-            <Pin Id="HUYWX1mfTOOLIAZyj2Arj0" Name="Names" Kind="OutputPin" />
+            <Pin Id="HUYWX1mfTOOLIAZyj2Arj0" Name="Model Joints" Kind="OutputPin" />
           </Node>
           <Pad Id="QO7hGnRgW0vLKTXk1vwNv9" Comment="Ch19" Bounds="377,1085,106,341" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
@@ -2102,7 +2102,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Mxx7ntYnbIIPSVNYrR7wG8" Comment="Names" Bounds="521,451,122,172" ShowValueBox="true" isIOBox="true">
+          <Pad Id="Mxx7ntYnbIIPSVNYrR7wG8" Comment="Mode Joints" Bounds="179,750,122,172" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maxvisibleentries p:Type="Int32">10</p:maxvisibleentries>
             </p:ValueBoxSettings>

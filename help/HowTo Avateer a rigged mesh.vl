@@ -23,9 +23,11 @@
               <Pin Id="TNjiqZ2yuJyLQHqNkLabgH" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="CtkVh1tzgKBN9Ng8Dc8rF3" Name="Skeleton Root" Kind="InputPin" />
               <Pin Id="G0aQypWS4NSOualOpY6zia" Name="Rigged Model Entity" Kind="InputPin" />
-              <Pin Id="RHKBWt3gRJMM7zRXvryjw9" Name="Model Joints" Kind="InputPin" />
+              <Pin Id="C6Hp7qy9HlAOUzebjeBLGS" Name="Model Joint Names" Kind="InputPin" />
               <Pin Id="QRnpOSgXyB1PuaSu5XTzdC" Name="Update" Kind="InputPin" DefaultValue="False" />
+              <Pin Id="QIefIdaFQjwPrnDpW0rWPE" Name="Model Joint Names" Kind="OutputPin" />
               <Pin Id="RWL2iso1LJaMT5sH9m6DCo" Name="Model Joints" Kind="OutputPin" />
+              <Pin Id="RHKBWt3gRJMM7zRXvryjw9" Name="Model Joints" Kind="InputPin" />
               <Pin Id="T68QakuvjJePFiP7ypq2sD" Name="Rotation Offset" Kind="InputPin" />
               <Pin Id="SU68sRUbqJnONjRZC7Brr8" Name="Ajust Rotation" Kind="InputPin" DefaultValue="False" />
             </Node>
@@ -1696,7 +1698,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="TfJUM2L4i32LdYNpzPGjKo" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1229, 213, 683, 469" IsHidden="true" />
+            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1461, 121, 1706, 1254" IsHidden="true" />
             <Pin Id="O48Q68C6YjgNbc0oYLGDWW" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="FeLXm9CAzYnLJmznql8nCt" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OtSoNGwARSrMy034NqILBB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -1905,7 +1907,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="VhGQ41iNk0NPkB9oNNY2MA" Comment="Path" Bounds="862,231,370,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\..\..\..\Downloads\Remy.fbx">
+          <Pad Id="VhGQ41iNk0NPkB9oNNY2MA" Comment="Path" Bounds="862,231,370,15" ShowValueBox="true" isIOBox="true" Value="Models\Remy_fbx.fbx">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
@@ -1918,11 +1920,11 @@
             <Pin Id="Qd7g8gJTeYHMHJ2OphPWQp" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="OXdhxaJ9af4NGNXLZRybj4" Name="Skeleton Root" Kind="InputPin" />
             <Pin Id="CSn91zjq6RJP4JFqLVIvjx" Name="Rigged Model Entity" Kind="InputPin" />
-            <Pin Id="OgfvrL3HYssLOewhSSA5jY" Name="Model Joints" Kind="InputPin" />
+            <Pin Id="F0iGTNIM3yMN0ynFTM2o8l" Name="Model Joint Names" Kind="InputPin" />
             <Pin Id="S0Eczs3knVJLKhlRlf3A7o" Name="Update" Kind="InputPin" />
-            <Pin Id="HUYWX1mfTOOLIAZyj2Arj0" Name="Model Joints" Kind="OutputPin" />
+            <Pin Id="MPiTDCXCzM3PczOeyUaL5Y" Name="Model Joint Names" Kind="OutputPin" />
           </Node>
-          <Pad Id="QO7hGnRgW0vLKTXk1vwNv9" Comment="Ch19" Bounds="377,1085,106,341" ShowValueBox="true" isIOBox="true">
+          <Pad Id="QO7hGnRgW0vLKTXk1vwNv9" Comment="Ch19" Bounds="369,972,106,341" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -1981,7 +1983,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="IxV3hb2KtVJN6FKQiy0dNu" Comment="WhiteMesh" Bounds="172,1091,106,341" ShowValueBox="true" isIOBox="true">
+          <Pad Id="IxV3hb2KtVJN6FKQiy0dNu" Comment="WhiteMesh" Bounds="165,978,106,341" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -2102,7 +2104,7 @@
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="Mxx7ntYnbIIPSVNYrR7wG8" Comment="Mode Joints" Bounds="179,750,122,172" ShowValueBox="true" isIOBox="true">
+          <Pad Id="Mxx7ntYnbIIPSVNYrR7wG8" Comment="Mode Joints" Bounds="157,760,122,172" ShowValueBox="true" isIOBox="true">
             <p:ValueBoxSettings>
               <p:maxvisibleentries p:Type="Int32">10</p:maxvisibleentries>
             </p:ValueBoxSettings>
@@ -2364,6 +2366,72 @@
               <Item>LeftHandMiddle2</Item>
               <Item>LeftHandRing2</Item>
               <Item>LeftHandPinky2</Item>
+              <Item>RightHandPinky4</Item>
+              <Item>RightHandRing4</Item>
+              <Item>RightHandMiddle4</Item>
+              <Item>RightHandIndex4</Item>
+              <Item>RightHandThumb4</Item>
+              <Item>LeftHandThumb4</Item>
+              <Item>LeftHandIndex4</Item>
+              <Item>LeftHandMiddle4</Item>
+              <Item>LeftHandRing4</Item>
+              <Item>LeftHandPinky4</Item>
+            </p:Value>
+          </Pad>
+          <Pad Id="NenZQBJB6ObO9hrnB3rwgc" Comment="" Bounds="544,424,117,341" ShowValueBox="true" isIOBox="true">
+            <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Spread" />
+              <p:TypeArguments>
+                <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                  <Choice Kind="TypeFlag" Name="String" />
+                </TypeReference>
+              </p:TypeArguments>
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:maxvisibleentries p:Type="Int32">21</p:maxvisibleentries>
+            </p:ValueBoxSettings>
+            <p:Value>
+              <Item>Hips</Item>
+              <Item>RightUpLeg</Item>
+              <Item>Spine</Item>
+              <Item>LeftUpLeg</Item>
+              <Item>RightLeg</Item>
+              <Item>Spine2</Item>
+              <Item>LeftLeg</Item>
+              <Item>RightFoot</Item>
+              <Item>RightShoulder</Item>
+              <Item>Neck</Item>
+              <Item>LeftShoulder</Item>
+              <Item>LeftFoot</Item>
+              <Item>RightToeBase</Item>
+              <Item>RightArm</Item>
+              <Item>Head</Item>
+              <Item>LeftArm</Item>
+              <Item>LeftToeBase</Item>
+              <Item>RightForeArm</Item>
+              <Item>LeftForeArm</Item>
+              <Item>RightHand</Item>
+              <Item>LeftHand</Item>
+              <Item>RightHandPinky1</Item>
+              <Item>RightHandRing1</Item>
+              <Item>RightHandMiddle1</Item>
+              <Item>RightHandIndex1</Item>
+              <Item>RightHandThumb1</Item>
+              <Item>LeftHandThumb1</Item>
+              <Item>LeftHandIndex1</Item>
+              <Item>LeftHandMiddle1</Item>
+              <Item>LeftHandRing1</Item>
+              <Item>LeftHandPinky1</Item>
+              <Item>RightHandPinky2</Item>
+              <Item>RightHandRing2</Item>
+              <Item>RightHandMiddle2</Item>
+              <Item>RightHandIndex2</Item>
+              <Item>RightHandThumb2</Item>
+              <Item>LeftHandThumb2</Item>
+              <Item>LeftHandIndex2</Item>
+              <Item>LeftHandMiddle2</Item>
+              <Item>LeftHandRing2</Item>
+              <Item>LeftHandPinky2</Item>
               <Item>RightHandPinky3</Item>
               <Item>RightHandRing3</Item>
               <Item>RightHandMiddle3</Item>
@@ -2373,7 +2441,7 @@
               <Item>LeftHandIndex3</Item>
               <Item>LeftHandMiddle3</Item>
               <Item>LeftHandRing3</Item>
-              <Item>LeftHandPinky2</Item>
+              <Item>LeftHandPinky3</Item>
             </p:Value>
           </Pad>
         </Canvas>
@@ -2412,8 +2480,8 @@
         <Link Id="HMDUWP6902TPLKQMXr0w56" Ids="JSuzEVPipYML5mg9KYd5jG,QUvF0YlVQYIMTaCkwaYglR" />
         <Link Id="EQiaOJeiAlkNtqFjwK4bvh" Ids="MX1pCGXKGDROrPIDFv5PeL,PZymr4KzkxXN24zGKXjnS6" />
         <Link Id="Cw16ciSLUSUP4vvLKcwoRb" Ids="QMebMvb2ghkM2TYFAMvCOr,CvmJqAPZOktMNu4GT7BKUz" />
-        <Link Id="TQkYWamyZ5JPeG2D1OICb5" Ids="HUYWX1mfTOOLIAZyj2Arj0,Mxx7ntYnbIIPSVNYrR7wG8" />
-        <Link Id="ERumdRIx3JlOck5lLBPe2D" Ids="B7UbzPA9Ij1MDObV7lvNXk,OgfvrL3HYssLOewhSSA5jY" />
+        <Link Id="DwtPhjEBRWeQP4RqKqEfrV" Ids="B7UbzPA9Ij1MDObV7lvNXk,F0iGTNIM3yMN0ynFTM2o8l" />
+        <Link Id="FJK1pbdAQHfOeZBjQCxLvf" Ids="MPiTDCXCzM3PczOeyUaL5Y,Mxx7ntYnbIIPSVNYrR7wG8" />
       </Patch>
     </Node>
   </Patch>

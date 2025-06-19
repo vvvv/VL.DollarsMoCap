@@ -1667,7 +1667,7 @@
             <Pin Id="FTOjIVtr1ElNZhWDcwmtIL" Name="Already Loaded" Kind="OutputPin" />
             <Pin Id="BHyKTr5aKYxOqMaZL4pTh6" Name="Url" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Pad Id="O5ALGxptgkLN8gQfMUaYZl" Comment="Reload" Bounds="987,281,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+          <Pad Id="O5ALGxptgkLN8gQfMUaYZl" Comment="Reload" Bounds="947,291,35,35" ShowValueBox="true" isIOBox="true" Value="false">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -1698,7 +1698,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="TfJUM2L4i32LdYNpzPGjKo" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="1461, 121, 1706, 1254" IsHidden="true" />
+            <Pin Id="Gr4rI5zR57WPRy0F5VYIPJ" Name="Bounds" Kind="InputPin" DefaultValue="3912, 108, 1706, 1969" IsHidden="true" />
             <Pin Id="O48Q68C6YjgNbc0oYLGDWW" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="FeLXm9CAzYnLJmznql8nCt" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="OtSoNGwARSrMy034NqILBB" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -1899,7 +1899,7 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="SiWZIpQkDxZOosB1fO9yxS" Comment="Merge Meshes" Bounds="923,261,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="SiWZIpQkDxZOosB1fO9yxS" Comment="Merge Meshes" Bounds="926,251,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -2019,7 +2019,7 @@
               <Item>Character1_LeftHand</Item>
             </p:Value>
           </Pad>
-          <Node Bounds="1246,131,165,19" Id="QQJ609VoTvvLAujQvDj9CF">
+          <Node Bounds="1246,80,165,19" Id="QQJ609VoTvvLAujQvDj9CF">
             <p:NodeReference LastCategoryFullName="Stride.Assets" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="LoadProject" />
@@ -2038,13 +2038,13 @@
             <Pin Id="UPmMAHTa9HdM0KrqMdvy7u" Name="Available Assets" Kind="OutputPin" />
             <Pin Id="KOnGKUneIbfM1mljM5OLZL" Name="Changes" Kind="OutputPin" />
           </Node>
-          <Pad Id="K7IItm753QcQXhT4YaFzHb" Comment="Project Path" Bounds="1238,90,140,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\Users\HOPE_01\Documents\Stride Projects\MyGame8\MyGame8\MyGame8.csproj">
+          <Pad Id="K7IItm753QcQXhT4YaFzHb" Comment="Project Path" Bounds="1248,49,140,15" ShowValueBox="true" isIOBox="true" Value="..\..\..\Users\HOPE_01\Documents\Stride Projects\MyGame8\MyGame8\MyGame8.csproj">
             <p:TypeAnnotation LastCategoryFullName="IO" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Path" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="B76NawSgzBfL9JH97eq5sa" Comment="Loading" Bounds="1189,180,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="QUvF0YlVQYIMTaCkwaYglR" Comment="Content URLs" Bounds="1318,180,190,144" ShowValueBox="true" isIOBox="true">
+          <Pad Id="B76NawSgzBfL9JH97eq5sa" Comment="Loading" Bounds="1248,130,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="QUvF0YlVQYIMTaCkwaYglR" Comment="Content URLs" Bounds="1328,170,190,144" ShowValueBox="true" isIOBox="true">
             <p:Value>
               <Item>Bodymat</Item>
               <Item>Bottommat</Item>
@@ -2088,7 +2088,7 @@
               <Item>Topmat</Item>
             </p:Value>
           </Pad>
-          <Node Bounds="1670,251,69,19" Id="O7e8YJtyUDeLoULJxsm0mJ">
+          <Node Bounds="1501,100,69,19" Id="O7e8YJtyUDeLoULJxsm0mJ">
             <p:NodeReference LastCategoryFullName="Stride.Assets" LastDependency="VL.Stride.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AssetModel" />
@@ -2099,7 +2099,7 @@
             <Pin Id="HJdsq6hzahwPT6VDqGWFxb" Name="Output" Kind="OutputPin" />
             <Pin Id="O4422uzqP3WMR7WgLsubY9" Name="Exists" Kind="OutputPin" />
           </Node>
-          <Pad Id="MX1pCGXKGDROrPIDFv5PeL" Comment="Model Url" Bounds="1672,200,154,15" ShowValueBox="true" isIOBox="true" Value="Remy_fbx">
+          <Pad Id="MX1pCGXKGDROrPIDFv5PeL" Comment="Model Url" Bounds="1503,49,154,15" ShowValueBox="true" isIOBox="true" Value="Remy_fbx">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -2312,7 +2312,7 @@
               </ProcessDefinition>
             </Patch>
           </Node>
-          <Pad Id="B7UbzPA9Ij1MDObV7lvNXk" Comment="" Bounds="361,261,117,341" ShowValueBox="true" isIOBox="true">
+          <Pad Id="B7UbzPA9Ij1MDObV7lvNXk" Comment="" Bounds="529,619,117,341" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -2378,7 +2378,7 @@
               <Item>LeftHandPinky4</Item>
             </p:Value>
           </Pad>
-          <Pad Id="NenZQBJB6ObO9hrnB3rwgc" Comment="" Bounds="544,424,117,341" ShowValueBox="true" isIOBox="true">
+          <Pad Id="NenZQBJB6ObO9hrnB3rwgc" Comment="" Bounds="391,261,117,341" ShowValueBox="true" isIOBox="true">
             <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Spread" />
               <p:TypeArguments>
@@ -2480,8 +2480,8 @@
         <Link Id="HMDUWP6902TPLKQMXr0w56" Ids="JSuzEVPipYML5mg9KYd5jG,QUvF0YlVQYIMTaCkwaYglR" />
         <Link Id="EQiaOJeiAlkNtqFjwK4bvh" Ids="MX1pCGXKGDROrPIDFv5PeL,PZymr4KzkxXN24zGKXjnS6" />
         <Link Id="Cw16ciSLUSUP4vvLKcwoRb" Ids="QMebMvb2ghkM2TYFAMvCOr,CvmJqAPZOktMNu4GT7BKUz" />
-        <Link Id="DwtPhjEBRWeQP4RqKqEfrV" Ids="B7UbzPA9Ij1MDObV7lvNXk,F0iGTNIM3yMN0ynFTM2o8l" />
         <Link Id="FJK1pbdAQHfOeZBjQCxLvf" Ids="MPiTDCXCzM3PczOeyUaL5Y,Mxx7ntYnbIIPSVNYrR7wG8" />
+        <Link Id="TLXqcCzjO2cLdH5ouHW980" Ids="NenZQBJB6ObO9hrnB3rwgc,F0iGTNIM3yMN0ynFTM2o8l" />
       </Patch>
     </Node>
   </Patch>

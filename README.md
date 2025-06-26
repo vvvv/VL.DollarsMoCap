@@ -1,14 +1,10 @@
 # VL.DollarsMoCap
 
-- [ ] A clear and concise description of what this package is and does, also what problem it solves.
-- [ ] In case this is a wrapper, links to original code and which version of it is used
-- [ ] In case this is for a device/protocol, links to the device/protocol-specs
-- [ ] Required dependencies/drivers to download and install in the getting started section below
-- [ ] If available, links to documentation (other than helppatches), tutorial videos, blog posts, ...
-- [ ] Note that you can also [include images](https://devblogs.microsoft.com/nuget/add-a-readme-to-your-nuget-package/#markdown-and-image-support)!
-- [ ] Mention any limitations
+Adds support to access skeleton and face blend mesh data by [Dollars MONO](https://www.dollarsmocap.com/mono).
 
-For use with vvvv, the visual live-programming environment for .NET: http://visualprogramming.net
+With Dollars MONO running using even just a simple webcam, vvvv connects to its network stream of data and returns full skeleton joint info (including fingers) and values for [52 blend meshes as defined by ARKit](https://arkit-face-blendshapes.com/).
+
+For use with vvvv, the visual live-programming environment for .NET: http://vvvv.org
 
 ## Getting started
 - Install as [described here](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) via commandline:

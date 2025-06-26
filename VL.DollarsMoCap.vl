@@ -682,10 +682,10 @@
             <Pin Id="AVdnuejUqYFOsAIx9fcSoe" Name="Port" Kind="InputPin" DefaultValue="39539" />
             <Pin Id="UpNmNwEej2ZLVZ1jwe9Qe3" Name="Enabled" Kind="InputPin" />
             <Pin Id="N9V2gVDXnkhOlrtIAlOmCM" Name="Skeleton" Kind="OutputPin" />
-            <Pin Id="OpWbNQazJzGQSZWgBR2CVk" Name="Names" Kind="OutputPin" />
-            <Pin Id="BW3mwz9S4CILocHF7uCHBT" Name="Transforms" Kind="OutputPin" />
-            <Pin Id="SC90fXZ2l91O7yxQ1VD98g" Name="Is Open" Kind="OutputPin" />
+            <Pin Id="OpWbNQazJzGQSZWgBR2CVk" Name="Joint Names" Kind="OutputPin" />
+            <Pin Id="BW3mwz9S4CILocHF7uCHBT" Name="Joint Transforms" Kind="OutputPin" />
             <Pin Id="FDQJ2RbA1YSO0bmzZaNBel" Name="Face Blend Shapes" Kind="OutputPin" />
+            <Pin Id="SC90fXZ2l91O7yxQ1VD98g" Name="Is Listening" Kind="OutputPin" />
           </Patch>
           <ProcessDefinition Id="AuVHq2D1PqTL7bZogTzMlY">
             <Fragment Id="PlkhrIcbGpYN6jBERL2mNq" Patch="Ghbi1jvzEQkOpOh8JOhpEe" Enabled="true" />

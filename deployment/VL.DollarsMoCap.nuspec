@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.DollarsMoCap</id>
-    <version>0.0.1-alpha</version>
+    <version>0.0.2-alpha</version>
     <title>VL.DollarsMoCap</title>
     <authors>vvvv</authors>
     <projectUrl>https://github.com/vvvv/VL.DollarsMoCap</projectUrl>
@@ -13,7 +13,8 @@
     <tags></tags>
     <license type="expression">LGPL-3.0-only</license>
     <dependencies>
-        <dependency id="VL.Skeleton" version="0.0.2-alpha" />
+      <dependency id="VL.Skeleton" version="0.0.2-alpha" />
+      <dependency id="VL.IO.OSC" version="1.2.1" />
     </dependencies>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>

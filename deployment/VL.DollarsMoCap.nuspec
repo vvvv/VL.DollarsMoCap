@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.DollarsMoCap</id>
-    <version>0.0.2-alpha</version>
+    <version>1.0.0</version>
     <title>VL.DollarsMoCap</title>
     <authors>vvvv</authors>
     <projectUrl>https://github.com/vvvv/VL.DollarsMoCap</projectUrl>
     <repository type="git" url="https://github.com/vvvv/VL.DollarsMoCap.git" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Support for skeleton, finger and face tracking by Dollars MoCap</description>
-    <tags></tags>
+    <tags>VL, skeleton, fingers, hand, face, tracking, blendshapes</tags>
     <license type="expression">LGPL-3.0-only</license>
     <dependencies>
       <dependency id="VL.Skeleton" version="0.0.2-alpha" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Mz2aZTMATu5NeYzCUBOwtL" LanguageVersion="2025.7.0-0407-g8675153500" Version="0.128">
-  <NugetDependency Id="QuLcPIZyotHLl8R6poRx6K" Location="VL.CoreLib" Version="2025.7.0-0407-g8675153500" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Mz2aZTMATu5NeYzCUBOwtL" LanguageVersion="2025.7.0-0411-g5864c70f83" Version="0.128">
+  <NugetDependency Id="QuLcPIZyotHLl8R6poRx6K" Location="VL.CoreLib" Version="2025.7.0-0411-g5864c70f83" />
   <Patch Id="Or2ssCjhV11PzMDvbOjPoP">
     <Canvas Id="DEuV8aaEhMZPle4G6QPT2h" DefaultCategory="Devices.Dollars" CanvasType="FullCategory">
       <!--
@@ -2151,6 +2151,99 @@
           <Link Id="M4sGSRDeq54LHLHZkdLRmA" Ids="SZRY4qNIMHYODKKnzRYmYb,K0R73JGezMEMaKSajeVPd0" />
           <Link Id="D5Nj82T14pyLEKct9ENjGq" Ids="LTexGbsHjvqOcOwWhkI9jq,KqVnR2DLfpAN3YtZuwqxzl" />
           <Link Id="ArEMja1IPShPPTCSH0POmR" Ids="Md3BoyULmndPNaRPklnPep,FsGMZoFXrgIPHHnLlPLYKv" />
+        </Patch>
+      </Node>
+      <!--
+
+    ************************ Dollars2Mixamo ************************
+
+-->
+      <Node Name="Dollars2Mixamo" Bounds="617,160" Id="UyuLSL3QwIBNMIAClZ6mTt">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Process" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <Patch Id="IbUaX3BTdGMNettAmVq093">
+          <Canvas Id="MoirvjrDqdhPXLxsNmPiDK" CanvasType="Group">
+            <Pad Id="TBwPMIiSxWlPsn8sDjL2Fv" Comment="" Bounds="319,390,115,95" ShowValueBox="true" isIOBox="true">
+              <p:TypeAnnotation LastCategoryFullName="Collections" LastDependency="VL.CoreLib.vl">
+                <Choice Kind="TypeFlag" Name="Spread" />
+                <p:TypeArguments>
+                  <TypeReference LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="String" />
+                  </TypeReference>
+                </p:TypeArguments>
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:maxvisibleentries p:Type="Int32">5</p:maxvisibleentries>
+                <p:showentryindex p:Type="Boolean">true</p:showentryindex>
+              </p:ValueBoxSettings>
+              <p:Value>
+                <Item>Hips</Item>
+                <Item>RightUpLeg</Item>
+                <Item>RightLeg</Item>
+                <Item>RightFoot</Item>
+                <Item>RightToeBase</Item>
+                <Item>LeftUpLeg</Item>
+                <Item>LeftLeg</Item>
+                <Item>LeftFoot</Item>
+                <Item>LeftToeBase</Item>
+                <Item>Spine</Item>
+                <Item>Spine2</Item>
+                <Item>Neck</Item>
+                <Item>Head</Item>
+                <Item>RightShoulder</Item>
+                <Item>RightArm</Item>
+                <Item>RightForeArm</Item>
+                <Item>RightHand</Item>
+                <Item>RightHandPinky1</Item>
+                <Item>RightHandPinky2</Item>
+                <Item>RightHandPinky3</Item>
+                <Item>RightHandRing1</Item>
+                <Item>RightHandRing2</Item>
+                <Item>RightHandRing3</Item>
+                <Item>RightHandMiddle1</Item>
+                <Item>RightHandMiddle2</Item>
+                <Item>RightHandMiddle3</Item>
+                <Item>RightHandIndex1</Item>
+                <Item>RightHandIndex2</Item>
+                <Item>RightHandIndex3</Item>
+                <Item>RightHandThumb1</Item>
+                <Item>RightHandThumb2</Item>
+                <Item>RightHandThumb3</Item>
+                <Item>LeftShoulder</Item>
+                <Item>LeftArm</Item>
+                <Item>LeftForeArm</Item>
+                <Item>LeftHand</Item>
+                <Item>LeftHandThumb1</Item>
+                <Item>LeftHandThumb2</Item>
+                <Item>LeftHandThumb3</Item>
+                <Item>LeftHandIndex1</Item>
+                <Item>LeftHandIndex2</Item>
+                <Item>LeftHandIndex3</Item>
+                <Item>LeftHandMiddle1</Item>
+                <Item>LeftHandMiddle2</Item>
+                <Item>LeftHandMiddle3</Item>
+                <Item>LeftHandRing1</Item>
+                <Item>LeftHandRing2</Item>
+                <Item>LeftHandRing3</Item>
+                <Item>LeftHandPinky1</Item>
+                <Item>LeftHandPinky2</Item>
+                <Item>LeftHandPinky3</Item>
+              </p:Value>
+            </Pad>
+            <ControlPoint Id="EklPG12yfniM15BdbVosVS" Bounds="319,500" />
+          </Canvas>
+          <Patch Id="VmVGrUAbbvTQEYoc0lYrmp" Name="Create" />
+          <Patch Id="I4o8Xvbh0pBMbiiLm1cvVq" Name="Update">
+            <Pin Id="NiQzXCRFm0sQME0EVOLFcj" Name="Output" Kind="OutputPin" />
+          </Patch>
+          <ProcessDefinition Id="R8WQcdflGc4QOgb2VaA3ZH">
+            <Fragment Id="JmCbHDRV0E9P3WhDFIXLdb" Patch="VmVGrUAbbvTQEYoc0lYrmp" Enabled="true" />
+            <Fragment Id="BuTZe1Gm9HMM6VWDJbIrjQ" Patch="I4o8Xvbh0pBMbiiLm1cvVq" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="VZ8PCapmd0ZNLbPF8cAHqh" Ids="TBwPMIiSxWlPsn8sDjL2Fv,EklPG12yfniM15BdbVosVS" />
+          <Link Id="CYlUAGrCuPJNRfz7ztGaci" Ids="EklPG12yfniM15BdbVosVS,NiQzXCRFm0sQME0EVOLFcj" IsHidden="true" />
         </Patch>
       </Node>
     </Canvas>

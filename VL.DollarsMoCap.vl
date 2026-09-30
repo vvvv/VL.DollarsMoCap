@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Mz2aZTMATu5NeYzCUBOwtL" LanguageVersion="2025.7.3" Version="0.128">
-  <NugetDependency Id="QuLcPIZyotHLl8R6poRx6K" Location="VL.CoreLib" Version="2025.7.3" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Mz2aZTMATu5NeYzCUBOwtL" LanguageVersion="2025.7.4" Version="0.128">
+  <NugetDependency Id="QuLcPIZyotHLl8R6poRx6K" Location="VL.CoreLib" Version="2025.7.4" />
   <Patch Id="Or2ssCjhV11PzMDvbOjPoP">
     <Canvas Id="DEuV8aaEhMZPle4G6QPT2h" DefaultCategory="Devices.Dollars" CanvasType="FullCategory">
       <!--
@@ -2506,6 +2506,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="Neol7VnxJfWNHXqkdUukuV" Location="VL.IO.OSC" Version="1.2.0" />
-  <NugetDependency Id="Nj6AOl8j2L4L7NF5zm4HNH" Location="VL.Skeleton" Version="0.0.1-alpha" />
+  <NugetDependency Id="GR0xNLlemtDPJ5Kdxwv1mo" Location="VL.Skeleton" Version="0.0.5" />
+  <NugetDependency Id="GCUKZT0AtSVM6BxHe4LuT1" Location="VL.IO.OSC" Version="2.0.10" />
 </Document>

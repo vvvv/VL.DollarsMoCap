@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Mz2aZTMATu5NeYzCUBOwtL" LanguageVersion="2025.7.5-0004-g1b41348f6f" Version="0.128">
-  <NugetDependency Id="QuLcPIZyotHLl8R6poRx6K" Location="VL.CoreLib" Version="2025.7.5-0004-g1b41348f6f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Mz2aZTMATu5NeYzCUBOwtL" LanguageVersion="2025.7.4" Version="0.128">
+  <NugetDependency Id="QuLcPIZyotHLl8R6poRx6K" Location="VL.CoreLib" Version="2025.7.4" />
   <Patch Id="Or2ssCjhV11PzMDvbOjPoP">
     <Canvas Id="DEuV8aaEhMZPle4G6QPT2h" DefaultCategory="Devices.Dollars" CanvasType="FullCategory">
       <!--
@@ -443,9 +443,7 @@
               </Patch>
               <ControlPoint Id="VytYm09VvzRMTz3kzgkUAy" Bounds="300,1131" Alignment="Top" />
               <ControlPoint Id="CHhQeAirMstQOuUQ8fV4a9" Bounds="378,1290" Alignment="Bottom" />
-              <ControlPoint Id="Vi1eTIjqBnqPZeVSCm0ZH1" Bounds="474,1290" Alignment="Bottom" />
             </Node>
-            <ControlPoint Id="LTvm5vSqXsRQJkecT8eXSV" Bounds="474,1376" />
             <Node Bounds="413,980,84,19" Id="QcUd4GDbHAaPLOq2K8eTj2">
               <p:NodeReference LastCategoryFullName="Devices.Dollars.DollarsMoCap" LastDependency="VL.DollarsMoCap.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -622,7 +620,6 @@
               <Pin Id="VyBzFvW5jiOPfOlsW2KhWm" Name="On Data" Kind="OutputPin" />
             </Node>
             <Pad Id="FvWUf4IEy3JQYTxWlTJxZ7" Bounds="378,1340" />
-            <Pad Id="EArTuYkoHdmLny5928fk9S" Bounds="474,1340" />
             <Pad Id="Km1OGAFrqyFNisA1xLfWD0" Bounds="159,1090" />
             <Pad Id="JT2omOJjenePHZQHbQqLFC" Bounds="415,1020" />
             <Node Bounds="464,290,73,19" Id="KFHzs2vlVF3MoFqX112VaO">
@@ -668,7 +665,6 @@
             <Pin Id="UpNmNwEej2ZLVZ1jwe9Qe3" Name="Enabled" Kind="InputPin" />
             <Pin Id="N9V2gVDXnkhOlrtIAlOmCM" Name="Skeleton" Kind="OutputPin" />
             <Pin Id="OpWbNQazJzGQSZWgBR2CVk" Name="Joint Names" Kind="OutputPin" />
-            <Pin Id="BW3mwz9S4CILocHF7uCHBT" Name="Joint Transforms" Kind="OutputPin" />
             <Pin Id="FDQJ2RbA1YSO0bmzZaNBel" Name="Face Blend Shapes" Kind="OutputPin" />
             <Pin Id="SC90fXZ2l91O7yxQ1VD98g" Name="Is Listening" Kind="OutputPin" />
             <Pin Id="CVJhAuZlVcDLGPjF71yAaB" Name="Present" Kind="OutputPin" />
@@ -718,9 +714,6 @@
           <Link Id="A56MBVqxCfNMGvYwjrw7Yd" Ids="LvslNFpqMwWNZCEkEUzIuo,CHhQeAirMstQOuUQ8fV4a9" />
           <Link Id="HJXkzYrYoYuOTTjIBauby3" Ids="CHhQeAirMstQOuUQ8fV4a9,FvWUf4IEy3JQYTxWlTJxZ7" />
           <Link Id="PBtFuyE9vWaO0nVTuofLi3" Ids="SXDiRXwDgSqMLwXSM5zYib,QyxMBZBK04MMFhx6qs1tHP" />
-          <Link Id="BFjMZAe8MYNQakpuY3SaTk" Ids="J4AArpoDlPEM9P5Lse4dbF,Vi1eTIjqBnqPZeVSCm0ZH1" />
-          <Link Id="HTwzOmWaCzdPnXHb6djPEN" Ids="Vi1eTIjqBnqPZeVSCm0ZH1,EArTuYkoHdmLny5928fk9S" />
-          <Link Id="CTLMn6ItUNzMiA536y1375" Ids="LTvm5vSqXsRQJkecT8eXSV,BW3mwz9S4CILocHF7uCHBT" IsHidden="true" />
           <Link Id="Pba9kK9z8o0P3wcDZXxj4s" Ids="HeWmX3X4jhsMumj4XVluGB,VytYm09VvzRMTz3kzgkUAy" />
           <Link Id="GtIAPeBDkLVNMzS3oBmMK2" Ids="QcMnXVvlwMyM3YV1WAjZtv,Km1OGAFrqyFNisA1xLfWD0" />
           <Link Id="OEu3TmK0SOgOtd4IJS7eY0" Ids="QcMnXVvlwMyM3YV1WAjZtv,N04uxxztERvPlLfQ8Ejgg3" />
@@ -762,10 +755,8 @@
           <Link Id="Sh40Ajl8uzqN5XJS2jn6gm" Ids="L5J4JDEx2YPQGAp8oKkmnv,FDQJ2RbA1YSO0bmzZaNBel" IsHidden="true" />
           <Link Id="MLBkwzBrdjDPQkKqucOhiW" Ids="UlPnQ1a9QixLHoeSZYKtYB,L5J4JDEx2YPQGAp8oKkmnv" />
           <Link Id="GWi80ypsN2SLC3cyEb0okK" Ids="FvWUf4IEy3JQYTxWlTJxZ7,HU6sqIZbDMdMyokg8BN2q8" />
-          <Link Id="M4Qvasz9XI3OZxTpnqOni0" Ids="EArTuYkoHdmLny5928fk9S,LTvm5vSqXsRQJkecT8eXSV" />
           <Link Id="KXRtqUBBtc8OnmoDnzHS16" Ids="Km1OGAFrqyFNisA1xLfWD0,VD35NVyYnROQRlxypQ0YEL" />
           <Link Id="Pdp7Kojd86LLaAwWwBCGvI" Ids="JT2omOJjenePHZQHbQqLFC,PEgJOfPl3nQN5UZ8mLwbsr" />
-          <Link Id="HG1FhnfFzP3OtzhgvlYS8p" Ids="JT2omOJjenePHZQHbQqLFC,FmOn3KxCm8vP67SrdDjXTe" />
           <Link Id="L8qMhTU0ZWQP5tgWPoanBq" Ids="HLexTlw1NEkNbImONXWqZt,IlDMktHCUdtL5qv9IuTCvD" />
           <Link Id="N8poL1AnpbtL3nnaEdISfA" Ids="RHizCSIIhcBOWk0mARD0y0,EOKzUVz7zd4MZXGH1qWdxE" />
           <Link Id="R0IphePMQOQLAcPINpjyjD" Ids="KiSRkj0DqR3PaCX9yiOqpb,GJnkDSwJBENLsdY0G4L87H" />
@@ -773,6 +764,7 @@
           <Link Id="AmsCjwVyJwIM3MAV0XuBWZ" Ids="CPTIITgoAYfPsK5kX1dzAs,Q6DluOV2zrxNjBxoYMXXVv" />
           <Link Id="DnQf4YjC7LXPK5JkftQL0S" Ids="Q6DluOV2zrxNjBxoYMXXVv,CVJhAuZlVcDLGPjF71yAaB" IsHidden="true" />
           <Link Id="KSnB1uK4r4wNNiKWIE1jb7" Ids="QSKSfhMaplWPyEnJjoOUfG,OXMsrOlu2vqOL7qwrutZJr" />
+          <Link Id="DH92Z3WcTlhONKMtZ5D8Xr" Ids="DUdjouQT7l2OCFjhroNvuh,FmOn3KxCm8vP67SrdDjXTe" />
         </Patch>
       </Node>
       <!--
@@ -2289,7 +2281,6 @@
                   <Pin Id="UQaVTvO0rhDPvIwQnm1jke" Name="Enabled" Kind="InputPin" />
                   <Pin Id="JAeqeSEj4UhM17Ekn58dTg" Name="Skeleton" Kind="OutputPin" />
                   <Pin Id="NgaQZxriN3HLzotnQt61D7" Name="Joint Names" Kind="OutputPin" />
-                  <Pin Id="NJHTOksK9J1M5jnuT5POD6" Name="Joint Transforms" Kind="OutputPin" />
                   <Pin Id="SGKZQkCbzmEO7tlm3cfzzX" Name="Face Blend Shapes" Kind="OutputPin" />
                   <Pin Id="Vo3bEl6AIPDPDP0syiGtRT" Name="Is Listening" Kind="OutputPin" />
                   <Pin Id="S4CuSvmlAF5QTp1U9B0C5K" Name="Present" Kind="OutputPin" />
@@ -2309,7 +2300,6 @@
               <ControlPoint Id="TgoM8YERyDOND36VX0i78K" Bounds="622,381" Alignment="Bottom" />
               <ControlPoint Id="VyGFqwB9wecOgWUZj1r73L" Bounds="695,381" Alignment="Bottom" />
               <ControlPoint Id="Qf58uYoac0SMqo7hcIzy2U" Bounds="533,381" Alignment="Bottom" />
-              <ControlPoint Id="DoWWoBVyn16OUmOIMZ2p0h" Bounds="515,381" Alignment="Bottom" />
               <ControlPoint Id="R1zjL5GfqlbNd5kZuNo73T" Bounds="495,381" Alignment="Bottom" />
               <ControlPoint Id="PMdMEPtofhXPrFvZlYbUJ7" Bounds="562,381" Alignment="Bottom" />
             </Node>
@@ -2321,7 +2311,6 @@
             <ControlPoint Id="CZQdNSVcHNaOClKjf1Uadb" Bounds="622,451" />
             <ControlPoint Id="BDbkMVeRidHLu0PZUng49w" Bounds="695,471" />
             <ControlPoint Id="K8LBiBcs4EuOvv0MqQYOWY" Bounds="572,451" />
-            <ControlPoint Id="OduNoHVwQ8JNoRzj1qbTBj" Bounds="524,472" />
             <ControlPoint Id="PuroU1JY0JZNZ2KuqX6NhT" Bounds="495,550" />
             <Node Bounds="493,511,80,19" Id="EEEZUjnzEuXN6qtBL2Dsqb">
               <p:NodeReference LastCategoryFullName="Collections.Sequence" LastDependency="VL.CoreLib.vl">
@@ -2357,16 +2346,6 @@
               <Pin Id="LddRzeDhAK3PplrDEAa8Re" Name="Alive Values" Kind="InputPin" />
               <Pin Id="T7SQKIH4gS2NQLbMS98uCy" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="522,411,43,19" Id="DT2OuLGrtamLGVXDqj6kOC">
-              <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
-                <Choice Kind="OperationCallFlag" Name="Select" />
-              </p:NodeReference>
-              <Pin Id="S3JNtZ3zHwZMFphQgFBQPY" Name="Input" Kind="StateInputPin" />
-              <Pin Id="Pb7NV6ofM14L4NerFLTkz9" Name="Alive Values" Kind="InputPin" />
-              <Pin Id="BPztZ50XrezO3BmuXaKIKr" Name="Output" Kind="StateOutputPin" />
-            </Node>
             <Node Bounds="570,411,43,19" Id="OHtIoQBfcHJN1DccjIlYiL">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -2396,7 +2375,6 @@
             <Pin Id="RW2yvP75tgMNNgq4YhxxUd" Name="Enabled" Kind="InputPin" />
             <Pin Id="AXCYBSGjIcXPC6wIsvK5q1" Name="Skeleton" Kind="OutputPin" />
             <Pin Id="DcvBx12FtJJOpsKWGOJMTf" Name="Id" Kind="OutputPin" />
-            <Pin Id="Et8TaRQvYrSMhiWYT30a5K" Name="Joint Transforms" Kind="OutputPin" />
             <Pin Id="URGYFM20xMdPrDVHY1WhsY" Name="Face Blend Shapes" Kind="OutputPin" />
             <Pin Id="GZARebBRijYLx3ANerWDo4" Name="Joint Names" Kind="OutputPin" />
             <Pin Id="O37ZuBBBN2UNII2svfgXKt" Name="Is Listening" Kind="OutputPin" />
@@ -2425,8 +2403,6 @@
           <Link Id="FzWkXlmwAudOqMeUtOTss3" Ids="BDbkMVeRidHLu0PZUng49w,O37ZuBBBN2UNII2svfgXKt" IsHidden="true" />
           <Link Id="V6QopJpUfDCMFJpaYg4P2u" Ids="PrHpNr5FTyXNGwE0JOOiwt,Qf58uYoac0SMqo7hcIzy2U" />
           <Link Id="UMWGukvcU9jPDcLx3OhkVv" Ids="K8LBiBcs4EuOvv0MqQYOWY,DcvBx12FtJJOpsKWGOJMTf" IsHidden="true" />
-          <Link Id="Va3aqbre4fALCTi5033Vsk" Ids="NJHTOksK9J1M5jnuT5POD6,DoWWoBVyn16OUmOIMZ2p0h" />
-          <Link Id="UjEWntPIpLvNVp6dWRvOUP" Ids="OduNoHVwQ8JNoRzj1qbTBj,Et8TaRQvYrSMhiWYT30a5K" IsHidden="true" />
           <Link Id="HNuXQ3GAtnlPBTK5BZoRrB" Ids="NgaQZxriN3HLzotnQt61D7,R1zjL5GfqlbNd5kZuNo73T" />
           <Link Id="Qu9yuEseYldMc64sR4WNYn" Ids="R1zjL5GfqlbNd5kZuNo73T,Cg8JCho7VvMPGWRJndjnsL" />
           <Link Id="Cwsbn1zAzXWQN9ZpOt2mSX" Ids="PuroU1JY0JZNZ2KuqX6NhT,GZARebBRijYLx3ANerWDo4" IsHidden="true" />
@@ -2437,13 +2413,10 @@
           <Link Id="GTnYltngZcMMUCop2o547x" Ids="T7SQKIH4gS2NQLbMS98uCy,FubyCKxH92lMj7zN3k0iae" />
           <Link Id="VnOdkguid3tMS9XUQ8Q7iN" Ids="S4CuSvmlAF5QTp1U9B0C5K,PMdMEPtofhXPrFvZlYbUJ7" />
           <Link Id="GzgmGyJhu0wLAIlzoAwgmY" Ids="PMdMEPtofhXPrFvZlYbUJ7,LddRzeDhAK3PplrDEAa8Re" />
-          <Link Id="QQwo5Beo1TXPi0nSAYgif6" Ids="DoWWoBVyn16OUmOIMZ2p0h,S3JNtZ3zHwZMFphQgFBQPY" />
           <Link Id="QUHcYQMd5fKPyaElFJ1QM1" Ids="Qf58uYoac0SMqo7hcIzy2U,Qacnq72HctnOy6jfcCmpOQ" />
           <Link Id="QCDlvjkq9GVM7Pyj84AqOC" Ids="TgoM8YERyDOND36VX0i78K,SyEBoDqHKnnLETGNDaLn1U" />
-          <Link Id="IH5IHc6UevnMbdRq8Naho2" Ids="PMdMEPtofhXPrFvZlYbUJ7,Pb7NV6ofM14L4NerFLTkz9" />
           <Link Id="Stm5Ajkv53mMOgZVs7PDgJ" Ids="PMdMEPtofhXPrFvZlYbUJ7,PzIdilsnhw7MofoDnG8DYz" />
           <Link Id="BC3NHzOvrqqNIeddMm8MpY" Ids="PMdMEPtofhXPrFvZlYbUJ7,KyyDrfhbqtjOQRABJD3B80" />
-          <Link Id="HTJfEGBnT3PQTI2gaOJVa5" Ids="BPztZ50XrezO3BmuXaKIKr,OduNoHVwQ8JNoRzj1qbTBj" />
           <Link Id="SEoxQugp0pLQGce967bem3" Ids="IqbyvqoqauHOYrTDa6uCsp,K8LBiBcs4EuOvv0MqQYOWY" />
           <Link Id="JqdTamjs0F1L0NrCU5SM8E" Ids="BgyHrRYiGbcNTUJE1hsHbi,CZQdNSVcHNaOClKjf1Uadb" />
         </Patch>

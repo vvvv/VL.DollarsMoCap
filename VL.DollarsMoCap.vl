@@ -656,7 +656,6 @@
               </p:TypeAnnotation>
             </Pad>
             <ControlPoint Id="Q6DluOV2zrxNjBxoYMXXVv" Bounds="466,361" />
-            <Pad Id="OXMsrOlu2vqOL7qwrutZJr" Comment="Data Preview" Bounds="500,180,237,62" ShowValueBox="true" isIOBox="true" />
           </Canvas>
           <Patch Id="Ghbi1jvzEQkOpOh8JOhpEe" Name="Create" ParticipatingElements="OEu3TmK0SOgOtd4IJS7eY0" />
           <Patch Id="U2BF07sMCHGLml1adbTjJK" Name="Update" ManuallySortedPins="true">
@@ -763,7 +762,6 @@
           <Link Id="VPGjRESICVCLV0qJryfpPM" Ids="BjPPE2aC1yDPYA2jbTERfh,FI4TFHEJNJVO0JeCtSuHQq" />
           <Link Id="AmsCjwVyJwIM3MAV0XuBWZ" Ids="CPTIITgoAYfPsK5kX1dzAs,Q6DluOV2zrxNjBxoYMXXVv" />
           <Link Id="DnQf4YjC7LXPK5JkftQL0S" Ids="Q6DluOV2zrxNjBxoYMXXVv,CVJhAuZlVcDLGPjF71yAaB" IsHidden="true" />
-          <Link Id="KSnB1uK4r4wNNiKWIE1jb7" Ids="QSKSfhMaplWPyEnJjoOUfG,OXMsrOlu2vqOL7qwrutZJr" />
           <Link Id="DH92Z3WcTlhONKMtZ5D8Xr" Ids="DUdjouQT7l2OCFjhroNvuh,FmOn3KxCm8vP67SrdDjXTe" />
         </Patch>
       </Node>
